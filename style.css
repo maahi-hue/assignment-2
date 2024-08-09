@@ -445,5 +445,87 @@ td {
   width: 100%;
   margin-bottom: 1.25rem;
 }
-
+/* ----------------------section-6----------------- */
+.section-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  height: 782px;
+  top: 2700px;
+  left: 400px;
+}
+.text-head {
+  color: var(--title-color);
+  font-size: 48px;
+  font-weight: 900;
+}
+.text-des {
+  color: var(--text-color);
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.trainers {
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  width: 1060px;
+  height: 609px;
+  margin-top: 170px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.trainers img {
+  flex: 1 1 calc(33.333% - 10px);
+  height: 272px;
+  width: 326.67px;
+  display: block;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 18px;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.trainer .overlay-text1 {
+  position: absolute;
+  top: 37%;
+  left: 5%;
+}
+.trainer .overlay-text2 {
+  position: absolute;
+  top: 37%;
+  left: 37%;
+}
+.trainer .overlay-text3 {
+  position: absolute;
+  top: 37%;
+  left: 70%;
+}
+.trainer .overlay-text4 {
+  position: absolute;
+  top: 85%;
+  left: 5%;
+}
+.trainer .overlay-text5 {
+  position: absolute;
+  top: 85%;
+  left: 37%;
+}
+.trainer .overlay-text6 {
+  position: absolute;
+  top: 85%;
+  left: 70%;
+}
+.overlay-h {
+  color: var(--title-color);
+  font-size: 20px;
+  font-weight: 600;
+}
+.overlay-p {
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 400;
+}
 /* -------------responsive media query----------------- */
