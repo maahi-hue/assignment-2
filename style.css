@@ -8,7 +8,6 @@
   --text-color: hsl(0, 0%, 69%);
 
   /*------FONT and  TYPOGRAPHY-----*/
-  /*-.5rem = 8px | 1rem = 16px-*/
   --big-font-size: 4.9rem;
   --h1-font-size: 3rem;
   --h2-font-size: 2.25rem;
@@ -619,3 +618,235 @@ td {
   margin-top: 2rem;
 }
 /* -------------responsive media query----------------- */
+/* General Styles */
+.menu-icon {
+  display: none;
+}
+@media screen and (max-width: 640px) {
+  .header,
+  .section-1 {
+    width: 24.563rem;
+    height: 64rem;
+  }
+  .header {
+    margin-left: 0;
+    left: 2rem;
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .menu-icon {
+    display: block;
+    font-size: 2rem;
+    color: var(--title-color);
+    cursor: pointer;
+  }
+
+  .nav__list {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(27, 26, 26, 0.9);
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+  }
+
+  .section-1 {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .text-1 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .cards {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .card-1 {
+    width: 9.119rem;
+    height: 4.631rem;
+    left: 20.938rem;
+    top: 58.75rem;
+  }
+  .card-h1 {
+    font-size: 1.89rem;
+  }
+  .card-p1 {
+    font-size: 0.614rem;
+  }
+  .card-h2 {
+    font-size: 1.134rem;
+  }
+  .card-p2 {
+    font-size: 0.756rem;
+  }
+  .card-2 {
+    width: 9.734rem;
+    height: 4.536rem;
+    left: 1.25rem;
+    top: 75.25rem;
+  }
+  .section-2,
+  .section-2-content {
+    width: 21.125rem;
+    height: 76rem;
+    flex-direction: column;
+    left: 2rem;
+  }
+  .content-h2 {
+    font-size: 2rem;
+  }
+  .content-1,
+  .content-2,
+  .content-3,
+  .content-4 {
+    margin-top: 2rem;
+  }
+  .section-2 {
+    margin-top: 28rem;
+    left: 2rem;
+  }
+  .section-3 {
+    width: 22.063rem;
+    height: 33.438rem;
+    margin-top: 85rem;
+    left: 2rem;
+  }
+  .txt-pr {
+    margin-top: -0.5rem;
+  }
+  .txt-hd {
+    font-size: 2rem;
+  }
+  .img {
+    width: 17.938rem;
+    height: 10.625rem;
+    left: 2rem;
+    top: 20.875rem;
+    background-size: cover;
+  }
+  .section-8 {
+    width: 21.125rem;
+    height: 76rem;
+    flex-direction: column;
+    margin-top: 90rem;
+    left: 2rem;
+  }
+  .programs {
+    flex-direction: column;
+  }
+  .content-head {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+  .content-h {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+  .section-4 {
+    width: 22.063rem;
+    height: 7.75rem;
+    margin-top: 140rem;
+    flex-direction: column;
+    left: 2rem;
+  }
+  .txt-hdd {
+    font-size: 2rem;
+  }
+
+  .container-last {
+    flex-direction: column;
+    width: 24.625rem;
+    height: 56.25rem;
+    margin-top: 140rem;
+    left: 2rem;
+  }
+  .table,
+  .form {
+    margin-left: 2rem;
+  }
+  .section-6 {
+    margin-top: 160rem;
+    left: 2rem;
+  }
+  .text-head {
+    font-size: 2rem;
+  }
+
+  .trainers {
+    width: 22.063rem;
+    height: 110.625rem;
+    flex-direction: column;
+  }
+  .trainer .overlay-text1 {
+    position: absolute;
+    top: 13%;
+    left: 17%;
+  }
+  .trainer .overlay-text2 {
+    position: absolute;
+    top: 29%;
+    left: 17%;
+  }
+  .trainer .overlay-text3 {
+    position: absolute;
+    top: 46%;
+    left: 17%;
+  }
+  .trainer .overlay-text4 {
+    position: absolute;
+    top: 62%;
+    left: 17%;
+  }
+  .trainer .overlay-text5 {
+    position: absolute;
+    top: 78%;
+    left: 17%;
+  }
+  .trainer .overlay-text6 {
+    position: absolute;
+    top: 95%;
+    left: 17%;
+  }
+  .section-7 {
+    width: 24.563rem;
+    height: 66.25rem;
+    margin-top: 230rem;
+    flex-direction: column;
+    left: 1rem;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .get-h {
+    margin-top: 2rem;
+  }
+  .main-h,
+  .main-p,
+  .get-h,
+  .get-p {
+    margin-left: 2rem;
+  }
+  .border {
+    width: 22.125rem;
+  }
+}
